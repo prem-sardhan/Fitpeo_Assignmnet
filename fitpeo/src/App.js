@@ -1,14 +1,28 @@
-import { Button } from '@mui/material'
-import { Stack } from '@mui/system'
+
 import React from 'react'
+import Home from './componnets/Home'
+import Customers from './Section/Customers'
+import Earning from './Section/Earning'
+import Orders from './Section/Orders'
+import OrderStats from './Section/OtderStats'
+import Overview from './Section/Overview'
+import Profile from './Section/Profile'
+import RecentActivity from './Section/RecentActivity'
+import TopProducts from './Section/TopProduct'
+import UserActivity from './Section/UserActivity'
 
 const App = () => {
   return (
 
-    <Stack marginTop='20px'> 
-      <Button variant='contained' color='success' bac>click me </Button>
-      
-      </Stack>
+  //  <Home/>
+  //  <Orders/>
+  //  <Customers/>
+
+<Profile/>
+
+
+
+
    
   )
 }
