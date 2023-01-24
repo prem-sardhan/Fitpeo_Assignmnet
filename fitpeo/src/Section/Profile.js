@@ -5,7 +5,7 @@ import Divider from "@mui/material/Divider";
 import Avatar from "@mui/material/Avatar";
 import Box from "@mui/system/Box";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
-import bgImg from "../avatar/blue_bg.png";
+import background_pic from "../avatar/bg_pic.png";
 import profileImg from "../avatar/avatar.png";
 import Earning from "./Earning";
 import RecentActivity from "./RecentActivity";
@@ -22,7 +22,7 @@ const Profile = () => {
         sx={{
           borderRadius: "inherit",
           height: "8rem",
-          background: `url(${bgImg})`,
+          background: `url(${background_pic})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "100% 78%",
           position: "relative",

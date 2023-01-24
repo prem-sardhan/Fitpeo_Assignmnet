@@ -25,25 +25,7 @@ ChartJS.register(
   Legend
 );
 
-//   const data = {
-//     labels: ["January", "February", "March", "April"],
 
-//     datasets: [
-//       {
-//         label: "Previous",
-//         data: [5, 15, 6, 13],
-//         borderColor: "orangered",
-
-//         backgroundColor: "rgba(255, 99, 132, 0.5)",
-//       },
-//       {
-//         label: "Current",
-//         data: [12, 9, 10, 19],
-//         borderColor: "rgb(53, 162, 235)",
-//         backgroundColor: "rgba(53, 162, 235, 0.5)",
-//       },
-//     ],
-//   }
 
 const UserActivity = () => {
   const data = {
@@ -80,11 +62,12 @@ const UserActivity = () => {
         height: "100%",
         display: "flex",
         flexDirection: "column",
-        border: "1px solid red",
+        p:1.5
+       
       }}
     >
       <Box alignItems="center" display="flex" justifyContent="space-between">
-        <Typography componnet="h2" fontSize={19} gutterBottom>
+        <Typography componnet="h2" fontSize={14} fontWeight="bold" gutterBottom>
           User Activity
         </Typography>
 
